@@ -5,7 +5,9 @@ Simple HTML component of a pop-up animation when selecting an image from a grid.
 - Youtube Tutorial: [Link](https://www.youtube.com/watch?v=4SQXOA8Z-lo)
 - My Take on the Tutorial: [Link](https://neuhaus93.github.io/fluid-imagem-popup)
 
+<img src=".github/gif-optimized.gif" alt="page-gif" height="400">
 
+<p align="center"><em>Exemplo do componente</em></p>
 
 
 
