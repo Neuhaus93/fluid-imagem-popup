@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Image Gallery Expand</title>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="img-container">
+        <img
+          src="./img-small/1-small.jpg"
+          alt="Green Mountains"
+          data-original="./img-full/1-big.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img-small/2-small.jpg"
+          alt="Cloud Mountains"
+          data-original="./img-full/2-big.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img-small/3-small.jpg"
+          alt="Dude on the Beach"
+          data-original="./img-full/3-big.jpg"
+        />
+      </div>
+      <div class="img-container">
+        <img
+          src="./img-small/4-small.jpg"
+          alt="Sky on Drugs"
+          data-original="./img-full/4-big.jpg"
+        />
+      </div>
+    </div>
+
+    <div class="modal">
+      <img src="" alt="" class="full-img" />
+      <p class="caption"></p>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
